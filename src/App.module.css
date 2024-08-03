@@ -1,7 +1,7 @@
 .left {
-  background: white;
   flex: 1;
-
+  border-radius: var(--mantine-radius-md) 0 0 var(--mantine-radius-md);
+  padding: 1rem;
 }
 
 .right {
@@ -10,4 +10,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 0 var(--mantine-radius-md) var(--mantine-radius-md) rem(60px);
 }
