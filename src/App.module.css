@@ -1,0 +1,13 @@
+.left {
+  background: white;
+  flex: 1;
+
+}
+
+.right {
+  background: #133040;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
